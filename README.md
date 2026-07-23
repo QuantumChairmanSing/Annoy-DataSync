@@ -3,7 +3,7 @@
 # Annoy: This should be a paper Title
 
 <p align="center">
-    📑 <a href="https://huggingface.co/papers/xxxx.xxxxx" target="_blank">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://specx.github.io/" target="_blank">Project Page</a> &nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/collections/{hf_namespace}/specx-67a978e28fd926b56a4f55a2" target="_blank">Released Resources</a> &nbsp&nbsp | &nbsp&nbsp 💾 <a href="https://huggingface.co/datasets/{hf_namespace}/Annoy-PyEdu-Rs" target="_blank">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📦 <a href="https://github.com/{github_namespace}/Annoy-DataSync" target="_blank">Repo</a>  
+    📑 <a href="https://huggingface.co/papers/xxxx.xxxxx" target="_blank">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://specx.github.io/" target="_blank">Project Page</a> &nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/collections/ewrwerwerer44/specx-67a978e28fd926b56a4f55a2" target="_blank">Released Resources</a> &nbsp&nbsp | &nbsp&nbsp 💾 <a href="https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs" target="_blank">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📦 <a href="https://github.com/QuantumChairmanSing/Annoy-DataSync" target="_blank">Repo</a>  
 <br>
 
 <p align="center">
@@ -39,9 +39,9 @@ Annoy-DataSync is a novel approach that transforms code-based reasoning patterns
 
 |Dataset|Link|
 |-|-|
-|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/{hf_namespace}/Annoy-Pyedu-Rs)|
-|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/{hf_namespace}/Annoy-PyEdu-Rs-Raw)|
-|LCO Benchmark|[🤗](https://huggingface.co/datasets/{hf_namespace}/LCO)|
+|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs)|
+|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs-Raw)|
+|LCO Benchmark|[🤗](https://huggingface.co/datasets/ewrwerwerer44/LCO)|
 
 Due to our collaborators' compliance requirements, we only release the PythonEdu-Rs subset of the Annoy(++) dataset.
 
@@ -62,24 +62,24 @@ Due to our collaborators' compliance requirements, we only release the PythonEdu
     </tr>
     <tr>
         <td>Qwen 2.5 7B Coder</td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/qwen2.5-7b-coder_spec_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/qwen2.5-7b-coder_spec">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/qwen2.5-7b-coder_spec_pp_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/qwen2.5-7b-coder_spec_pp">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/qwen2.5-7b-coder_spec_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/qwen2.5-7b-coder_spec">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/qwen2.5-7b-coder_spec_pp_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/qwen2.5-7b-coder_spec_pp">🤗</a></td>
     </tr>
     <tr>
         <td>LLaMA 3.1 8B</td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/llama3.1-8b_spec_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/llama3.1-8b_spec">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/llama3.1-8b_spec_pp_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/llama3.1-8b_spec_pp">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/llama3.1-8b_spec_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/llama3.1-8b_spec">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/llama3.1-8b_spec_pp_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/llama3.1-8b_spec_pp">🤗</a></td>
     </tr>
     <tr>
         <td>DeepSeek v2 Lite Coder</td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/dsv2-lite-coder_spec_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/dsv2-lite-coder_spec">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/dsv2-lite-coder_spec_pp_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/{hf_namespace}/dsv2-lite-coder_spec_pp">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/dsv2-lite-coder_spec_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/dsv2-lite-coder_spec">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/dsv2-lite-coder_spec_pp_stage1">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/ewrwerwerer44/dsv2-lite-coder_spec_pp">🤗</a></td>
     </tr>
 </table>
 
@@ -103,7 +103,7 @@ Please note that our setup does not guarantee the execution of all types of Pyth
 
 ### Data Processing
 
-We provide a complete guide for you to build data for Annoy on a toy dataset. After all these steps you can get a dataset with the same format as in our [huggingface dataset](https://huggingface.co/datasets/{hf_namespace}/Annoy-Pyedu-Rs).
+We provide a complete guide for you to build data for Annoy on a toy dataset. After all these steps you can get a dataset with the same format as in our [huggingface dataset](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs).
 
 All intermediate results will be stored under `./data`.
 
@@ -207,7 +207,7 @@ python ./src/assemble_spec_demo.py \
 --result_file_turn2 data/spec_1k_gens_rev_verified.jsonl \
 --output_file spec_demo_final.jsonl
 ```
-By doing so, you can get data `data/spec_demo_final.jsonl` with the same format as in our [huggingface dataset](https://huggingface.co/datasets/{hf_namespace}/Annoy-Pyedu-Rs).
+By doing so, you can get data `data/spec_demo_final.jsonl` with the same format as in our [huggingface dataset](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs).
 
 ### Training
 You can use any popular training framework to train your model like [llama-factory](https://github.com/hiyouga/LLaMA-Factory). 
