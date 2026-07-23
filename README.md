@@ -27,9 +27,9 @@ Annoy-DataSync is a novel approach that transforms code-based reasoning patterns
 #### Dataset
 |Dataset|Link|License|
 |-|-|-|
-|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs)|Apache License 2.0|
-|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs-Raw)|Apache License 2.0|
-|LCO Benchmark|[🤗](https://huggingface.co/datasets/ewrwerwerer44/LCO)|Apache License 2.0|
+|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs)|CC0 1.0 (Public Domain - most permissive for derivative use)|
+|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs-Raw)|CC0 1.0 (Public Domain - most permissive for derivative use)|
+|LCO Benchmark|[🤗](https://huggingface.co/datasets/ewrwerwerer44/LCO)|CC0 1.0 (Public Domain - most permissive for derivative use)|
 
 Due to our collaborators' compliance requirements, we only release the PythonEdu-Rs subset of the Annoy(++) dataset.
 
@@ -41,11 +41,12 @@ LLaMA 3.1 8B | 🤗 | 🤗 | 🤗 | 🤗
 DeepSeek v2 Lite Coder | 🤗 | 🤗 | 🤗 | 🤗
 
 ## License
-All released datasets (Annoy-PyEdu-Rs-Raw, Annoy-PyEdu-Rs, LCO Benchmark) and this project repository are released under the **Apache License 2.0**, directly inherited from the original source:
-- The raw Annoy-PyEdu-Rs-Raw dataset is derived from HuggingFaceTB's Python-Edu resources, which are built on **The Stack (BigCode/starcoderdata)** - a dataset exclusively containing permissively licensed code (including Apache 2.0, MIT, and other OSI-approved permissive licenses, with no copyleft content)
-- Our processed/transformed datasets and code reuse the same Apache License 2.0 as the original source data, consistent with the license terms of the code we derived from.
+All released datasets (Annoy-PyEdu-Rs-Raw, Annoy-PyEdu-Rs, LCO Benchmark) and this project repository are released under **Creative Commons Zero v1.0 Universal (CC0 1.0)**.
 
-See the full [LICENSE](LICENSE) file for complete Apache 2.0 license terms.
+This is selected as the most permissive license available from our multiple source options (original source chain BigCode/The Stack includes CC0 1.0, MIT, and Apache License 2.0):
+- CC0 1.0 waives all copyright and related rights entirely, allowing maximum freedom for derivative/secondary use: free use, modification, redistribution, and relicensing for any purpose (commercial or non-commercial) with no attribution or license retention requirements - the most permissive option possible.
+
+See the full [LICENSE](LICENSE) file for details.
 
 ## Get Started
 ### Setup
