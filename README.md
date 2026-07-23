@@ -27,9 +27,9 @@ Annoy-DataSync is a novel approach that transforms code-based reasoning patterns
 #### Dataset
 |Dataset|Link|License|
 |-|-|-|
-|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs)|CC0 1.0 (Public Domain)|
-|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs-Raw)|CC0 1.0 (Public Domain)|
-|LCO Benchmark|[🤗](https://huggingface.co/datasets/ewrwerwerer44/LCO)|CC0 1.0 (Public Domain)|
+|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-Pyedu-Rs)|Apache License 2.0|
+|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/ewrwerwerer44/Annoy-PyEdu-Rs-Raw)|Apache License 2.0|
+|LCO Benchmark|[🤗](https://huggingface.co/datasets/ewrwerwerer44/LCO)|Apache License 2.0|
 
 Due to our collaborators' compliance requirements, we only release the PythonEdu-Rs subset of the Annoy(++) dataset.
 
@@ -41,11 +41,11 @@ LLaMA 3.1 8B | 🤗 | 🤗 | 🤗 | 🤗
 DeepSeek v2 Lite Coder | 🤗 | 🤗 | 🤗 | 🤗
 
 ## License
-All released datasets (Annoy-PyEdu-Rs-Raw, Annoy-PyEdu-Rs, LCO Benchmark) and this project repository are released under the **Creative Commons Zero v1.0 Universal (CC0 1.0)** license:
-- The raw Annoy-PyEdu-Rs-Raw dataset is derived from HuggingFaceTB's original PythonEdu resources, which are dedicated to the public domain under CC0 1.0
-- Our processed/transformed datasets and code are also released to the public domain via CC0 1.0, meaning you are free to use, modify, and redistribute these resources for any purpose (commercial or non-commercial) without restrictions.
+All released datasets (Annoy-PyEdu-Rs-Raw, Annoy-PyEdu-Rs, LCO Benchmark) and this project repository are released under the **Apache License 2.0**, directly inherited from the original source:
+- The raw Annoy-PyEdu-Rs-Raw dataset is derived from HuggingFaceTB's Python-Edu resources, which are built on **The Stack (BigCode/starcoderdata)** - a dataset exclusively containing permissively licensed code (including Apache 2.0, MIT, and other OSI-approved permissive licenses, with no copyleft content)
+- Our processed/transformed datasets and code reuse the same Apache License 2.0 as the original source data, consistent with the license terms of the code we derived from.
 
-See the full [LICENSE](LICENSE) file for complete details.
+See the full [LICENSE](LICENSE) file for complete Apache 2.0 license terms.
 
 ## Get Started
 ### Setup
@@ -91,7 +91,7 @@ You can also use GPT series models to do this transformation step, since recentl
 #### Step 2: Parse & Generate I/O Pairs
 ```
 python ./src/parse_gen_ios.py \\
- --input_file data/rawcode_1k_parsed.jsonl \\
+ --input_file data/rawcode_1k_unified.jsonl \\
  --output_file data/rawcode_1k_parsed.jsonl \\
  --python_path "python" \\
  --run_path "./temp/temp/temp"
@@ -141,7 +141,7 @@ python ./src/build_spec_rev_msg.py \\
 ```
 python ./src/batched_api_inference.py \\
  --input data/spec_1k_msg_rev.jsonl \\
- --output_file data/spec_1k_gens_rev.jsonl \\
+ --output data/spec_1k_gens_rev.jsonl \\
  --model deepseek-chat \\
  --num_process 10 \\
  --num_thread 10 \\
